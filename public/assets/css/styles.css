@@ -1,0 +1,194 @@
+  * {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-bottom: 60px;
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    background-color: white;
+   
+  }
+  
+  .list-group-item_header {
+    font-weight: bold;
+    position: relative;
+    display: block;
+    font-size: 25px;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: white;
+    border-top: none;
+    border-bottom:  1px solid #aaa4a4;
+    border-left: none;
+    border-right: none; 
+    color: black;
+  }
+  .list-group-item_list {
+    font-weight: lighter;
+    position: relative;
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: white;
+    border-top:  1px solid #aaa4a4;
+    border-bottom:  none;
+    border-left: none;
+    border-right: none; 
+    color: black;
+  }
+   .list-group{
+   margin-bottom: 0px !important;
+
+  }
+  .task-check {
+    margin-right: 10px;
+  }
+  .task-text {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 42px;
+     font-family: serif;
+max-width: 310px;
+text-overflow: hidden
+ white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .task-completed {
+    text-decoration: line-through;
+  }
+  .time-created {
+    margin-left: 20px;
+  }
+  .priority-meta {
+    margin: 20px 0 0 10px;
+  }
+  .priority-label {
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  .priority-label.inactive {
+    color: #777;
+  }
+  .page-header {
+    padding-bottom: 9.5px;
+    margin: 0px 0 -21px !important;
+    border-bottom: 1px solid transparent;
+  }
+  .bookHeader{
+       color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 34px;
+    width: 100%;
+  }
+.hrLine {
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border: 0.5px solid #aaa4a4 !important;
+    border-top: 1px solid #464545;}
+.btn_AddBook{
+  margin-bottom: 25px;
+    margin-top: 45px;
+    outline: none !important;
+}
+.btn-outline
+{
+outline: none !important;
+}
+      .modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+ .modal-content-data{
+  height: 300px;
+  background-color: white;
+ }
+ .modal-body-data{
+   color: black;
+ }
+ .input-body-data{
+  color: black;
+  border: 1px solid black !important;
+ }
+ .modalHeader{
+  color: black;
+ }
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.uiHeader{
+  font-family: serif;
+}
+.uiHeader1{
+  font-family: serif;
+ /* text-align: center;*/
+     margin-left: 75px;
+}
+}
+
+.book{
+  font-family: serif;
+max-width: 310px;
+text-overflow: hidden
+ white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; }
+.book_read{
+  /*margin-left: 140px;*/
+  text-align: center;
+  font-family: serif;
+}
+.book_author{
+  /*margin-left: 140px;*/
+  text-align: center;
+  font-family: serif;
+}
+.book_info{
+ color: black;
+    height: 27px;
+    background-color: #b7f4b7;
+    border: 1px solid #30c130;
+}
+.input-lg {
+    height: 40px;
+    padding: 10px 19px;
+    font-size: 19px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-bottom: 12px;}
+    .lg_checkbox{
+       position: relative;
+    right: 11px;
+    width: 58px;
+    height: 22px;
+    }
+    .REad{
+      position: relative;
+    top: -23px;
+    left: 35px;
+    }
+     ::placeholder{
+        color: black;
+        opacity: 1; /* Firefox */
+      }
